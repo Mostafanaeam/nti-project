@@ -1,0 +1,52 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family:  "Open Sans", sans-serif ;
+    background-image: url(../img/qq.jpg);
+    background-size:cover ;
+}
+.container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.pmmimg{
+    width: 30px;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 20px 0;
+}
+
+header .imgg {
+    display:block;
+    width: 20px;
+    height: 30px;
+    background-color: rgb(15, 0, 58);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+    
+}
+
+span{
+    display:block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+    
+}

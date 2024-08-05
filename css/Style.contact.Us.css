@@ -1,0 +1,460 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family:  "Open Sans", sans-serif ;
+}
+
+/* -- start header -- */
+.hed1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:15px 0 ;
+    
+    
+}
+.hed1 .Login{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 13px;
+    width: 103px;
+    height: 42px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 2, 77, 0.096);
+    text-shadow:2px 2px 4px #fdfdfd;
+}
+.hed1 .Login:hover{
+    border: 2.5px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+    background-color: rgb(2, 2, 77);
+    width: 114px;
+    height: 47px;
+    font-size: 12.5px;
+    transition: ease-in-out;
+    transition-duration: .8s ;
+}
+
+.logo{
+    font-size: 22px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.815);
+
+}
+
+.logo:hover{
+    font-size: 24px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 600;
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    color: rgb(255, 255, 255);
+}
+
+.hed2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color:  #545468;
+    height: 50px;
+    
+    
+}
+
+@media(max-width:675px){
+    .hed2{
+       display: block;
+        border-radius: 20px;
+        padding: 10px;
+       font-size: 12px;
+        padding: 10px 3px 0px 3px;
+        text-align: center;
+        
+    }}
+
+
+.hed2 a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid rgba(224, 224, 224, 0);
+    border-radius: 20px;
+    width: 114px;
+    height: 35px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.hed2 a:hover{
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid rgb(224, 224, 224);
+    width: 120px;
+    height: 38px;
+    border: 2px solid rgb(2, 2, 54);
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    background-color: aliceblue;
+    color:rgb(2, 2, 54);
+}
+
+
+ /* <!-- video -->  */
+ .contant{
+    width: 100%;
+    
+}
+
+.video{
+    width: 100%;
+    height: 1190px;
+    position: relative;
+    background-color:#010f5300;
+
+}
+ .video::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#010f533d;
+
+} 
+.hed{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+}
+
+.video video{
+    width: 100%;
+   
+}
+@media(max-width:675px){
+    .video video{
+       
+       width: 100%;
+       height: 800px;
+       
+       
+        
+    }}
+
+.pimg{
+    width: 100%;
+    height: 550px;
+    background-color:#fafafa41;
+    position: absolute;
+    top: 25%;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+@media(max-width:675px){
+    .pimg{
+       display: block;
+       width: 100%;
+       height: 800px;
+       
+       
+        
+    }}
+.pimg img{
+    background-color: rgb(0, 38, 255);
+    width: 500px;
+    height: 500px;
+    background-image: url(../img/cont.jpeg);
+    border-radius: 30px;
+    margin-top: 2%;
+    border: 2px solid white;
+    
+}
+
+@media(max-width:675px){
+    .pimg img{
+       display: block;
+       width: 100%;
+       height: 500px;
+       
+       
+        
+    }}
+
+.pimg p{
+    background-color: #0088b9a1;
+    width: 600px;
+    height: 360px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8%;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    
+
+    
+}
+
+@media(max-width:675px){
+    .pimg p{
+       display: block;
+       width:  500px;
+       height: 600px;
+       text-align: center;
+       
+        
+    }}
+.pimg p span{
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(10, 0, 70);
+}
+
+.temp{
+    background-color: #0088b9a1;
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    top: 123%;
+    text-align: center;
+    border-radius: 30px;
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    border: 3px solid rgb(255, 255, 255);
+    
+}
+
+@media(max-width:675px){
+    .pimg p{
+       display: block;
+       width:  100%;
+       height: 42px;
+       text-align: center;
+       width: 100%;
+        height: 42px;
+        position: absolute;
+        top: 200%;
+        font-size: 22px;
+        font-weight: 600;
+    }}
+.tem{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.671);
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 130%;
+}
+
+
+
+.tem img{
+    width: 100px;
+    height: 100px;
+}
+
+.mostafa{
+    text-align: center;
+    margin: 25px 1% 0 1%;
+    background-color: rgb(10, 0, 70);
+    height: 420px;
+    border-radius: 30px;
+    border: 3px solid #d1e709;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    width: 25%;
+}
+
+.mostafa:hover{
+    width: 24%;
+    height: 430px;
+    background-color: rgba(1, 2, 61, 0.795);
+    border: 4px solid #e5ff00;
+    transition: ease-in-out;
+    transition-duration: 0.7s ;
+}
+
+.Eslim{
+    text-align: center;
+    margin: 25px 1% 0 1%;
+    background-color: rgb(10, 0, 70);
+    height: 420px;
+    border-radius: 30px;
+    border: 3px solid #09e0e7;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    width: 25%;
+}
+
+.Eslim:hover{
+    width: 24%;
+    height: 430px;
+    border: 4px solid #00f7ff;
+    background-color: rgba(1, 2, 61, 0.795);
+    transition: ease-in-out;
+    transition-duration: 0.7s ;
+}
+
+.alzehraa{
+    text-align: center;
+    margin: 25px 1% 0 1%;
+    background-color: rgb(10, 0, 70);
+    height: 420px;
+    border-radius: 30px;
+    border: 3px solid #09ff00;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    width: 25%;
+}
+
+.alzehraa:hover{
+    width: 24%;
+    height: 430px;
+    border: 4px solid #0ce005;
+    background-color: rgba(1, 2, 61, 0.795);
+    transition: ease-in-out;
+    transition-duration: 0.7s ;
+}
+
+.rdwaa{
+    text-align: center;
+    margin: 25px 1% 0 1%;
+    background-color: rgb(10, 0, 70);
+    height: 420px;
+    border-radius: 30px;
+    border: 3px solid #e709d5;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    width: 25%;
+}
+
+.rdwaa:hover{
+    width: 24%;
+    height: 430px;
+    border: 4px solid #ff00ea;
+    background-color: rgba(1, 2, 61, 0.795);
+    transition: ease-in-out;
+    transition-duration: 0.7s ;
+
+}
+
+
+.tem p span{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(0, 255, 242);
+}
+
+
+
+
+/* --------fooder----------- */
+.fooder{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(2, 7, 54, 0.795) ;
+    margin-top: 200px;
+   border-radius: 30px;
+   border: 3px solid  rgb(255, 255, 255) ;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+
+
+.homfoder a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    padding-right: 50px;
+}
+.homfoder a:hover{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 217, 255);
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+
+.homfoder1{
+    width: 200px;
+    background-color: rgb(1, 6, 70);
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    border-radius: 30px;
+    padding: 8px;
+    border: 1px solid  rgb(255, 255, 255) ;
+    text-align: center;
+    
+}
+
+@media(max-width:675px){
+    .homfoder1{
+        display:inline-block;
+        width: 150px;
+        height: 60px;
+        padding: 9px;
+        margin: 0 3px;
+        
+   
+    }}
+
+
+.hom2foder p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+
+}
+
+@media(max-width:675px){
+    .hom2foder p{
+        font-size: 14px;
+    font-weight: 500;
+        
+   
+    }}
+
+.imgfoder img{
+    width: 32px;
+    height: 32px;
+    margin: 5px 65px;
+    margin-right: 90px;
+}
+
+.imgfoder img:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}

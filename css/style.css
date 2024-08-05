@@ -1,0 +1,463 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family:  "Open Sans", sans-serif ;
+    background-image:linear-gradient(to top,rgba(1, 25, 92, 0) 30%,rgba(6, 5, 83, 0) 70%),url(../img/qqq.jpg);
+    background-size:contain ;
+}
+
+/* -- start header -- */
+
+
+.hed1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:15px 0 ;
+    
+    
+}
+.hed1 .Login{
+    border: 2px solid rgb(2, 2, 77);
+    border-radius: 20px;
+    font-size: 13px;
+    width: 103px;
+    height: 42px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 2, 77, 0.096);
+    text-shadow:2px 2px 4px #fdfdfd;
+}
+.hed1 .Login:hover{
+    border: 2.5px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+    background-color: rgb(2, 2, 77);
+    width: 114px;
+    height: 47px;
+    font-size: 12.5px;
+    transition: ease-in-out;
+    transition-duration: .8s ;
+}
+
+.logo{
+    font-size: 22px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(2, 2, 77, 0.815);
+
+}
+
+.logo:hover{
+    font-size: 24px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 600;
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    color: rgb(2, 2, 54);
+}
+
+.hed2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color:  #545468;
+    height: 50px;
+    
+    
+}
+
+@media(max-width:675px){
+    .hed2{
+       display: block;
+        border-radius: 20px;
+        padding: 10px;
+       font-size: 12px;
+        padding: 10px 3px 0px 3px;
+        text-align: center;
+        
+    }}
+
+
+.hed2 a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid rgba(224, 224, 224, 0);
+    border-radius: 20px;
+    width: 114px;
+    height: 35px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.hed2 a:hover{
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid rgb(224, 224, 224);
+    width: 120px;
+    height: 38px;
+    border: 2px solid rgb(2, 2, 54);
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    background-color: aliceblue;
+    color:rgb(2, 2, 54);
+}
+
+
+.navv{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pcode{
+    color: rgb(2, 2, 54);
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow:2px 2px 4px #fdfdfd;
+    width: 100%;
+    text-align: center;
+    padding-right:70px ;
+    padding-bottom:30px ;
+    
+    
+}
+
+.nav{
+    justify-content: flex-end;
+    width: 10%;
+    
+}
+
+.logo2 img{
+    width: 35px;
+    height: 35px;
+    margin: 10px 0;
+   
+}
+
+#f{
+    width: 40px;
+    height: 40px;
+}
+#f:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+#t:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+#k:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+#i:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+
+/* <!-- nav2 -->  */
+.fac{
+    width: 100%;
+    height: 10px;
+    background-color: #0a032ebb;
+}
+
+.nav2{
+    width: 100%;
+    height: 160vh;
+    background-image:linear-gradient(to top,rgba(255, 255, 255, 0.363) 30%,rgba(255, 255, 255, 0.432) 70%),url(../img/wq.jpg);
+    background-size:cover ;
+}
+
+.hnav2{
+    text-align: center;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 400;
+    border: 3px solid white;
+    background-color: rgba(2, 2, 54, 0.774);
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+   
+}
+
+.cors{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: rgba(2, 7, 54, 0.637) ;
+    border-radius: 30px;  
+    margin-top: 25px;
+    
+     
+}
+
+.imm{
+    width: 150px;
+    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+@media(max-width:675px){
+    .imm {
+        display:inline-block;
+        width: 90px;
+        height: 90px;
+   
+    }}
+
+.imm:hover{
+    width: 165px;
+    height: 165px;
+    transition: ease-in-out;
+    transition-duration: 0.7s ;
+}
+
+
+.imm2:hover{
+    width: 160px;
+    height: 165px;
+    transition: ease-in-out;
+    transition-duration: 0.7s ;
+}
+.cors1{
+    text-align: center;
+   
+}
+
+.cors a{
+    text-align: center;
+    display:block;
+    background-color: rgba(2, 2, 54, 0.774);
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+    text-decoration: none;
+    margin:auto;
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.cors a:hover{
+    height: 60px;
+    width: 335px;
+    transition: ease-in-out;
+    transition-duration: 0.8s ;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgba(2, 7, 54, 0) ;
+    border: 3px solid  rgb(0, 255, 242) ;
+}
+/* ------------------------ */
+.mk{
+    text-align: center;
+    background-color: #0d123f;
+    color: rgb(255, 255, 255); 
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.section4{
+    width: 100%;
+    height: 350px;
+    background-color: #0d123f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+@media(max-width:675px){
+    .section4 {
+        display:flex;
+        margin:auto;
+        width: 100%;
+        height: 250px;
+        font-size: 15px;
+        font-weight: 500;
+        
+    }}
+
+    @media(max-width:675px){
+        .section4 p{
+            display:flex;
+          
+            width: 100%;
+           
+            font-size: 15px;
+            font-weight: 500;
+            padding: 5px;
+            
+        }}
+
+.sep{
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.seep{
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.ssep{
+    padding-left: 42px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sepp{
+    padding-left: 110px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ----------------------------- */
+/* --------fooder----------- */
+.fooder{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(2, 7, 54, 0.795) ;
+    margin-top: 100px;
+   border-radius: 30px;
+   border: 3px solid  rgb(255, 255, 255) ;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+
+
+.homfoder a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    padding-right: 50px;
+}
+.homfoder a:hover{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 217, 255);
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+
+.homfoder1{
+    width: 200px;
+    background-color: rgb(1, 6, 70);
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    border-radius: 30px;
+    padding: 8px;
+    border: 1px solid  rgb(255, 255, 255) ;
+    text-align: center;
+    
+}
+
+@media(max-width:675px){
+    .homfoder1{
+        display:inline-block;
+        width: 150px;
+        height: 60px;
+        padding: 9px;
+        margin: 0 3px;
+        
+   
+    }}
+
+
+.hom2foder p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+
+}
+
+@media(max-width:675px){
+    .hom2foder p{
+        font-size: 14px;
+    font-weight: 500;
+        
+   
+    }}
+
+.imgfoder img{
+    width: 32px;
+    height: 32px;
+    margin: 5px 65px;
+    margin-right: 90px;
+}
+
+.imgfoder img:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+
+/* --------------------js------------ */
+#btn{
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color: #003af7;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    font-weight: 700;
+    display:none;
+    border: 2px solid white;
+}

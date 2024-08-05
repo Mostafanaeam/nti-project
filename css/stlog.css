@@ -1,0 +1,370 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family:  "Open Sans", sans-serif ;
+    background:url(../img/pz.jpg) no-repeat;
+    background-position: center;
+    background-size:cover ;
+}
+
+.hed1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:15px 0 ;
+    
+    
+}
+.hed1 .Login{
+    border: 2px solid rgb(2, 2, 77);
+    border-radius: 20px;
+    font-size: 13px;
+    width: 103px;
+    height: 42px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 2, 77, 0.096);
+    text-shadow:2px 2px 4px #fdfdfd;
+}
+.hed1 .Login:hover{
+    border: 2.5px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+    background-color: rgb(2, 2, 77);
+    width: 114px;
+    height: 47px;
+    font-size: 12.5px;
+    transition: ease-in-out;
+    transition-duration: .8s ;
+}
+
+.logo{
+    font-size: 22px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(2, 2, 77, 0.815);
+
+}
+
+.logo:hover{
+    font-size: 24px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 600;
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    color: rgb(2, 2, 54);
+}
+
+.hed2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color:  #545468;
+    height: 50px;
+    
+    
+}
+
+@media(max-width:675px){
+    .hed2{
+       display: block;
+        border-radius: 20px;
+ 
+       font-size: 12px;
+        padding: 10px 3px 0px 3px;
+        text-align: center;
+        
+    }}
+
+
+.hed2 a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid rgba(224, 224, 224, 0);
+    border-radius: 20px;
+    width: 114px;
+    height: 35px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.hed2 a:hover{
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid rgb(224, 224, 224);
+    width: 120px;
+    height: 38px;
+    border: 2px solid rgb(2, 2, 54);
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    background-color: aliceblue;
+    color:rgb(2, 2, 54);
+}
+.hed1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:15px 0 ;
+    
+    
+}
+.hed1 .Login{
+    border: 2px solid rgb(2, 2, 77);
+    border-radius: 20px;
+    font-size: 13px;
+    width: 103px;
+    height: 42px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 2, 77, 0.096);
+    text-shadow:2px 2px 4px #fdfdfd;
+}
+.hed1 .Login:hover{
+    border: 2.5px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+    background-color: rgb(2, 2, 77);
+    width: 114px;
+    height: 47px;
+    font-size: 12.5px;
+    transition: ease-in-out;
+    transition-duration: .8s ;
+}
+
+.logo{
+    font-size: 22px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(2, 2, 77, 0.815);
+
+}
+
+.logo:hover{
+    font-size: 24px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 600;
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    color: rgb(2, 2, 54);
+}
+
+.hed2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color:  #545468;
+    height: 50px;
+    
+    
+}
+
+@media(max-width:675px){
+    .hed2{
+       display: block;
+        border-radius: 20px;
+ 
+       font-size: 12px;
+        padding: 10px 3px 0px 3px;
+        text-align: center;
+        
+    }}
+
+
+.hed2 a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid rgba(224, 224, 224, 0);
+    border-radius: 20px;
+    width: 114px;
+    height: 35px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.hed2 a:hover{
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid rgb(224, 224, 224);
+    width: 120px;
+    height: 38px;
+    border: 2px solid rgb(2, 2, 54);
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    background-color: aliceblue;
+    color:rgb(2, 2, 54);
+}
+
+
+/*------loging-------*/
+
+.loging{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    
+
+}
+
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255,0.9) ;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    font-size: 2em;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+
+}
+
+.inputbox label {
+    position: absolute;
+    top:50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+transition: .5s;
+
+}
+  
+.inputbox input{
+    width: 100%;
+    height: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 15px 0 5px;
+    color: #fff;
+
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forgrt{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.forgrt label a{
+    color: rgb(9, 2, 104);
+    font-weight: 900;
+
+}
+
+
+.forgrt label a:hover{
+    text-decoration: underline;
+   
+}
+
+button{
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color:rgb(9, 2, 104);
+}
+
+.log-in-Register{
+    display:flex;
+    padding: 0 5px;
+}
+
+
+button:hover{
+    width: 105%;
+    height: 45px;
+    font-size: 1.2em;
+    font-weight: 700;
+    transition-duration: .5s;
+    background: rgb(228, 0, 0);
+    border: 2px solid rgb(9, 2, 104);
+    color: rgb(255, 255, 255);
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+
+}
+
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.register p a:hover{
+    text-decoration:underline ;
+}

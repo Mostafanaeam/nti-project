@@ -1,0 +1,503 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family:  "Open Sans", sans-serif ;
+    background-image:linear-gradient(to top,rgba(1, 25, 92, 0.267) 30%,rgba(6, 5, 83, 0.336) 70%),url(../img/za.jpg);
+    background-size:cover ;
+}
+
+/* -- start header -- */
+.hed1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:15px 0 ;
+    
+    
+}
+.hed1 .Login{
+    border: 2px solid rgb(2, 2, 77);
+    border-radius: 20px;
+    font-size: 13px;
+    width: 103px;
+    height: 42px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 2, 77, 0.096);
+    text-shadow:2px 2px 4px #fdfdfd;
+}
+.hed1 .Login:hover{
+    border: 2.5px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+    background-color: rgb(2, 2, 77);
+    width: 114px;
+    height: 47px;
+    font-size: 12.5px;
+    transition: ease-in-out;
+    transition-duration: .8s ;
+}
+
+.logo{
+    font-size: 22px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(2, 2, 77, 0.815);
+
+}
+
+.logo:hover{
+    font-size: 24px;
+    padding-top:10px ;
+    text-decoration: none;
+    font-weight: 600;
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    color: rgb(2, 2, 54);
+}
+
+.hed2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color:  #545468;
+    height: 50px;
+    
+    
+}
+
+@media(max-width:675px){
+    .hed2{
+       display: block;
+        border-radius: 20px;
+        padding: 10px;
+       font-size: 12px;
+        padding: 10px 3px 0px 3px;
+        text-align: center;
+        
+    }}
+
+
+.hed2 a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid rgba(224, 224, 224, 0);
+    border-radius: 20px;
+    width: 114px;
+    height: 40px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.hed2 a:hover{
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid rgb(224, 224, 224);
+    width: 120px;
+    height: 38px;
+    border: 2px solid rgb(2, 2, 54);
+    transition: ease-in-out;
+    transition-duration: .7s ;
+    background-color: aliceblue;
+    color:rgb(2, 2, 54);
+}
+
+
+.navv{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+@media(max-width:675px){
+    form{
+        display: block;
+    width: 100%;
+        
+    }}
+
+
+.nav{
+    width: 25%;
+    background-color: #fbfbff8a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+@media(max-width:675px){
+    .nav{
+      width: 100%;
+      display: block;
+      justify-content: center;
+      align-items: center;  
+    }}
+
+.form-value h2{
+    color: white;
+    
+}
+
+@media(max-width:675px){
+    .loging{
+      width: 100%;
+        
+    }}
+.nav div p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.logo2 img{
+    width: 35px;
+    height: 35px;
+    margin: 10px 70% 0 0;
+   
+}
+
+#f{
+    width: 40px;
+    height: 40px;
+}
+#f:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+#t:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+#k:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+#i:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+
+.log-in-Register button{
+    border-radius: 30px;
+}
+
+
+
+/* <!-- nav2 -->  */
+.fac{
+    width: 100%;
+    height: 10px;
+    background-color: #0a032ebb;
+}
+
+.nav2{
+    width: 100%;
+    height: 160vh;
+    background-image:linear-gradient(to top,rgba(255, 255, 255, 0.363) 30%,rgba(255, 255, 255, 0.432) 70%),url(../img/wq.jpg);
+    background-size:cover ;
+}
+
+.hnav2{
+    text-align: center;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 400;
+    border: 3px solid white;
+    background-color: rgba(2, 2, 54, 0.774);
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+   
+}
+
+.cors{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: rgba(2, 7, 54, 0.637) ;
+    border-radius: 30px;  
+    margin-top: 25px;
+    
+     
+}
+
+
+
+.imm{
+    width: 150px;
+    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imm:hover{
+    width: 165px;
+    height: 165px;
+    transition: ease-in-out;
+    transition-duration: 0.7s ;
+}
+
+.imm2{
+    width: 150px;
+    height: 150px;
+    margin-left: 5.0%;
+    margin-right: 5.0%;
+}
+
+.imm2:hover{
+    width: 160px;
+    height: 165px;
+    transition: ease-in-out;
+    transition-duration: 0.7s ;
+}
+.cors1{
+    text-align: center;
+   
+}
+
+.cors a{
+    text-align: center;
+    display:block;
+    background-color: rgba(2, 2, 54, 0.774);
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+    text-decoration: none;
+    margin:auto;
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.cors a:hover{
+    height: 60px;
+    width: 335px;
+    transition: ease-in-out;
+    transition-duration: 0.8s ;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgba(2, 7, 54, 0) ;
+    border: 3px solid  rgb(0, 255, 242) ;
+}
+
+/* --------fooder----------- */
+.fooder{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(2, 7, 54, 0.795) ;
+    margin-top: 100px;
+   border-radius: 30px;
+   border: 3px solid  rgb(255, 255, 255) ;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+
+.homfoder a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    padding-right: 50px;
+}
+.homfoder a:hover{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 217, 255);
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+
+.homfoder1{
+    width: 200px;
+    background-color: rgb(1, 6, 70);
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    border-radius: 30px;
+    padding: 8px;
+    border: 1px solid  rgb(255, 255, 255) ;
+    text-align: center;
+    
+}
+
+.hom2foder p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.imgfoder img{
+    width: 40px;
+    height: 40px;
+    margin: 5px 65px;
+}
+
+.imgfoder img:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+}
+
+/* ----------------------------------------------------------------- */
+
+.loging{
+    display: flex;
+    
+    align-items: center;
+    min-height: 100vh;
+    width: 52%;
+    
+    background-position: center;
+    background-size:cover ;
+    
+
+}
+
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255,0.9) ;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    font-size: 2em;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+
+}
+
+.inputbox label {
+    position: absolute;
+    top:50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+transition: .5s;
+
+}
+  
+.inputbox input{
+    width: 100%;
+    height: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 15px 0 5px;
+    color: #fff;
+
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forgrt{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.forgrt label a{
+    color: rgb(9, 2, 104);
+    font-weight: 900;
+
+}
+
+
+.forgrt label a:hover{
+    text-decoration: underline;
+   
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color:rgb(9, 2, 104);
+}
+
+
+
+
+button:hover{
+    width: 105%;
+    height: 45px;
+    font-size: 1.2em;
+    font-weight: 700;
+    transition-duration: .5s;
+    background: rgb(228, 0, 0);
+    border: 2px solid rgb(9, 2, 104);
+    color: rgb(255, 255, 255);
+}
